@@ -1,0 +1,94 @@
+.subscribe-page {
+  margin-top: 30vh;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+.subscribe-page-div-1 {
+  margin-top: 15vh;
+}
+.subscribe-page-div-1 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #031b28;
+  text-align: center;
+}
+.subscribe-page-div-2 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.subscribe-page-info {
+  margin: 5px;
+  list-style: none;
+}
+.subscribe-page-info li {
+  margin: 4rem;
+  border-bottom: 1px solid var(--grey700);
+  max-width: 80vw;
+}
+.subscribe-page-info li label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 166%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: var(--grey900);
+}
+.subscribe-page-info li input {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 166%;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+  margin-bottom: 0.5vh;
+  min-width: 30vh;
+}
+.subscribe-page-div-3 {
+  min-width: 40vw;
+}
+.list {
+  min-width: 40vw;
+}
+.subscribe-button button {
+  margin: 1vw;
+  margin-bottom: 15vh;
+  border-radius: 5px;
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+.subscribe-button button:hover {
+  background-color: var(--golden);
+  cursor: pointer;
+}
+
+/* media queries */
+@media (max-width: 340px) {
+  .subscribe-button button {
+    margin: 1vw;
+    margin-bottom: 15vh;
+    border-radius: 5px;
+    background-color: var(--darkblue);
+    color: var(--white);
+    width: 10vw;
+  }
+}

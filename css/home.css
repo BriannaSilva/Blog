@@ -1,0 +1,463 @@
+.title {
+  display: flex;
+  left: 11vw;
+  right: 26.67%;
+  top: 10%;
+  bottom: 89.41%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border-top: 50vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 7vw;
+}
+
+.mainpage-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  position: relative;
+  width: 80vw;
+  height: 10vh;
+  left: 5%;
+  order: 2;
+  flex-grow: 0;
+  margin: 165px 0px;
+  padding-left: 2.5vw;
+  padding-bottom: 15vh;
+}
+
+.mainpage-about .mainpage-about-img p {
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 40%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #565656;
+  flex-grow: 0;
+  margin: 12px 0 12px 0;
+}
+
+.mainpage-about .mainpage-about-img img {
+  display: flex;
+  width: 300px;
+  height: 235px;
+  left: 0rem;
+  top: 0;
+}
+
+.mainpage-about h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 133%;
+  letter-spacing: 0.05em;
+}
+
+.mainpage-about-info {
+  display: table-column;
+  width: 100vw;
+  height: 31vh;
+  left: 0px;
+  top: 0px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 168%;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  color: #565656;
+}
+.mainpage-about-info p {
+  padding-top: 12px;
+}
+
+.mainpage-about-info a {
+  margin-top: 1rem;
+  display: inline-block;
+  background: var(--grey700);
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.mainpage-about-info a:hover {
+  background: #dba858;
+}
+
+/* About ends */
+/* CEO Starts */
+.ceo {
+  padding-left: 5%;
+}
+.ceo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  left: 5%;
+  order: 2;
+  flex-grow: 0;
+  padding-left: 2.5vw;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.ceo-left {
+  width: 60vw;
+  margin: 2.9rem 0rem;
+}
+
+.ceo-left h2 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  text-align: justify;
+  width: 80%;
+}
+
+.ceo-r {
+  display: table-column;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 168%;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  color: #565656;
+}
+
+.ceo-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: var(--grey700);
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  justify-content: start;
+}
+.ceo-btn:hover {
+  background: #dba858;
+}
+
+/* CEO Ends */
+
+/* Blogs stars */
+.blogs {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.blogs-container {
+  display: grid;
+  max-width: 90vw;
+  min-width: 75vw;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+}
+.blogs-firstdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 90vw;
+  min-width: 75vw;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogs-title {
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  text-align: justify;
+  padding-left: 2.5vw;
+}
+
+.blogs-img {
+  width: 350px;
+  height: 250px;
+}
+
+.blogs-title-2 {
+  font-family: "Ebrima", sans-serif;
+  font: 1.5rem;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0.75vw;
+  margin-bottom: 0.75vw;
+}
+
+.blogs-small {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 32px;
+  width: 90%;
+}
+.blogs-btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--grey500);
+}
+
+.blogs-btn:hover {
+  color: var(--golden);
+}
+.blogs-divs {
+  display: flex;
+  margin-bottom: 42px;
+  flex-direction: column;
+  align-items: center;
+}
+/* Blogs ends */
+
+/* Podcasts main page starts */
+.podcasts {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.podcasts-container {
+  display: grid;
+  max-width: 90vw;
+  min-width: 75vw;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+}
+.podcasts-firstdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 90vw;
+  min-width: 75vw;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.podcasts-title {
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  text-align: justify;
+  padding-left: 2.5vw;
+}
+
+.podcasts-img {
+  width: 350px;
+  height: 250px;
+}
+
+.podcasts-title-2 {
+  font-family: "Ebrima", sans-serif;
+  font: 1.5rem;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0.75vw;
+  margin-bottom: 0.75vw;
+}
+
+.podcasts-small {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 32px;
+  width: 90%;
+}
+.podcasts-btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--grey500);
+}
+
+.podcasts-btn:hover {
+  color: var(--golden);
+}
+.podcasts-divs {
+  display: flex;
+  margin-bottom: 42px;
+  flex-direction: column;
+  align-items: center;
+}
+/* media queries */
+
+@media (max-width: 450px) {
+  .mainpage-about {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30vh;
+    margin-top: 280px;
+  }
+  .mainpage-about-img {
+    padding-left: 5px;
+  }
+  .mainpage-about-info {
+    padding-right: 5px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 90vw;
+    padding-left: 5vw;
+  }
+  .ceo-div {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0.25vw;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ceo-left {
+    width: 90vw;
+    padding: 0 5vw 0 5vw;
+  }
+  .ceo-r {
+    max-width: 90vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+  .blogs-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: -24px;
+    align-items: center;
+  }
+  .podcasts-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: -24px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+  .title {
+   padding-bottom: 6.5vh; 
+  }
+  .mainpage-about {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .mainpage-about-info {
+    width: 90vw;
+    padding-left: 5vw;
+  }
+  .mainpage-about-img {
+    margin-top: 15vh;
+  }
+  .mainpage-about h2 {
+    margin-top: 80px;
+  }
+  .mainpage-about .mainpage-about-img p {
+   height: auto; 
+  }
+  .mainpage-about .mainpage-about-img img {
+    width: 300px;
+    height: 236px;
+  }
+  .ceo {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 200px;
+  }
+  .ceo.div {
+    display: table-column;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15vw;
+    width: 80vw;
+    padding-top: 0;
+  }
+  .ceo-left {
+    width: 90vw;
+    margin-top: 12vh;
+  }
+  .ceo-r {
+    width: 90vw;
+    padding-right: 5vw;
+  }
+
+  .ceo-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .blogs-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: -24px;
+    align-items: center;
+  }
+  .podcasts-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: -24px;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .blogs-img {
+    width: 200px;
+    height: 125px;
+  }
+  .podcasts-img {
+    width: 200px;
+    height: 125px;
+  }
+  .mainpage-about .mainpage-about-img p {
+   height: auto; 
+  }
+}

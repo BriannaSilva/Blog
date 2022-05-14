@@ -1,0 +1,265 @@
+/* BLOGS PAGE STARS */
+.blog-header {
+  margin-left: 5vw;
+  margin-bottom: 2.4vh;
+}
+.blog-header-title {
+  margin-top: 8vh;
+}
+
+.blog-header-title2 h1 {
+  right: 26.67%;
+  top: 10%;
+  bottom: 89.41%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.blog-header-image {
+  width: 40vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.blog-daily-life {
+  display: flex;
+}
+.blog-daily-life-title {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  margin-left: 3vw;
+}
+.blog-daily-life-title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.blog-daily-life-title p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+  margin-bottom: 12px;
+}
+.blog-daily-life-li {
+  display: flex;
+  align-items: center;
+}
+
+.blog-daily-life-title li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--grey700);
+  line-height: 166%;
+}
+.blog-daily-life-title a {
+  margin-left: 5px;
+  color: var(--grey700);
+}
+.blog-daily-life-title a:hover {
+  color: var(--golden);
+}
+.blog-section {
+  margin-top: 6vh;
+  margin-left: 1.75vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.blog-card {
+  display: flex;
+  max-width: 40vw;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vw;
+}
+.blog-image {
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 30vw;
+  height: 25vh;
+  left: 0px;
+  top: 0px;
+}
+.blog-overview {
+  margin: 10px 0 20px;
+  line-height: 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+  color: #565656;
+  max-width: 33.5vw;
+  max-width: 540px;
+}
+.btn.dark {
+  background-color: var(--grey700);
+  color: var(--white);
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  justify-content: start;
+}
+.btn.dark:hover {
+  background-color: var(--golden);
+}
+.blog-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.blog-btn-seemore {
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6vh;
+  margin-top: 4vh;
+}
+.btn.more {
+  background-color: var(--darkblue);
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 1vw;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.more:hover {
+  background-color: var(--golden);
+}
+.blog-section-categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.blog-categories h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.blog-categories {
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+.categories {
+  list-style: none;
+  font-size: 2rem;
+  margin-left: 1vw;
+}
+.categories-input {
+  border-bottom: 1px solid var(--grey500);
+  max-width: 20vw;
+  font-family: "Lato", sans-serif;
+}
+/* BLOGS PAGE ENDS */
+/* ---------------------------------------------------------------------------------------- */
+/* media queries */
+/* ---------------------------------- */
+@media (max-width: 1220px) {
+  .blog-image {
+    width: 50vw;
+    height: 25vh;
+  }
+  .categories-input {
+    max-width: 100%;
+  }
+}
+
+/* ----------------------------- */
+/* TABLET */
+@media (max-width: 768px) {
+  .blog-image {
+    width: 80vw;
+    height: 30vh;
+  }
+  .blog-card {
+    max-width: 80vw;
+  }
+  
+}
+
+/* -------------------------------- */
+/* CELLPHONE */
+@media (max-width: 340px) {
+  .blog-daily-life {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+  }
+  .blog-header-image {
+    width: 90vw;
+    height: 40vh;
+  }
+  .blog-daily-life-title {
+    min-width: 80vw;
+    max-width: 81vw;
+    margin-left: 5px;
+  }
+  .blog-section {
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .blog-card {
+    max-width: 80vw;
+  }
+  .blog-image {
+    width: 80vw;
+    height: 25vh;
+  }
+  .blog-section-categories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .blog-categories {
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+  .categories {
+    list-style: none;
+    font-size: 2rem;
+    margin-left: 1vw;
+  }
+  .categories-input {
+    padding-top: 10vh;
+    border-bottom: 1px solid var(--grey500);
+    min-width: 80vw;
+    font-family: "Lato", sans-serif;
+  }
+}
