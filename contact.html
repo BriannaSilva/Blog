@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Red+Hat+Display" rel="stylesheet">
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+<body>
+        <!-- header section starts -->
+<header class="header">
+    <a href="./index.html" class="logo">Amith Kumar</a>
+    <nav class="navbar">
+       <a href="./index.html">Home</a>
+       <a href="./about.html">About</a>
+       <a href="./podcast.html">Podcast</a>
+       <a href="./blogs.html">Blog</a>
+       <a href="./contact.html">Contact</a>
+       <a href="./subscribe.html">Subscribe</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="Search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</header>
+<!-- header section ends -->
+ <!-- Title section begins -->
+ <main>
+     <section class="contact-section-1">
+         <div class="contact-title">
+             <h1>Contact</h1>
+         </div>
+         <div class="contact-right">
+             <p>If you have technical issues or just want to contact Amith, don´t doubt it and leave us an email!</p>
+         </div>
+     </section>
+     <section class="contact-section-2">
+         <div class="section-2-left">
+            <div class="contact-information">
+                <h2>Contact information</h2>
+                <p>amith@anumak.com</p>
+                <p> +51 919 638 879 </p>
+                <p> +91 99722 54877</p>
+            </div>
+            <div class="contact-follow">
+                <h2>Follow me</h2>
+                <ul class="contact-socials">
+                   <li><a href="https://www.linkedin.com/in/kumar-amith/" class="fab fa-linkedin"></a></li>
+                   <li><a href="https://www.instagram.com/theamithkumar/" class="fab fa-instagram"></a></li>
+                </ul>
+            </div>
+         </div>
+         <div class="section-2-right">
+            <div class="contact-form-div">
+                <form action="#" method="post" id="contact-form">
+                    <ul class="contact-form-info">
+                        <li>
+                            <label for="name">Name*</label>
+                            <input type="text" name="name" id="name" placeholder="your name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" placeholder="your email here" required>
+                        </li>
+                        <li>
+                            <label for="number">Phone number</label>
+                            <input type="tel" name="number" id="number" placeholder="your number here" aria-required="false">
+                        </li>
+                        <li class="list">
+                            <input type="text" list="list" placeholder="Reason for contact" style="width: 40vw" required>
+                            <datalist id="list" style="width: 40vw">
+                                <option>Contact Amith</option>
+                                <option>Contact technical support</option>
+                                <option>Other</option>
+                            </datalist>
+                        </li>
+                        <li>
+                            <label for="message">Message* </label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here" required></textarea>
+                        </li>
+                    </ul>
+                </form>
+             </div>
+             <div class="contact-button">
+                <button class="contact-button-button ">Send</button>
+             </div>
+         </div>
+     </section>
+ </main>
+<!-- Footter section stars -->
+ <footer>
+    <div class="footer-content">
+        <h3> Contact information</h3>
+        <p>amith@anumak.com | +51 919 638 879 | +91 99722 54877</p>
+        <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/kumar-amith/" class="fab fa-linkedin" target="_blank" rel="noopener noreferrer"></a></li>
+            <li><a href="https://www.instagram.com/theamithkumar/" class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a></li>
+        </ul>
+    </div>
+     <div class="footer-bottom">
+        <p> Designed by <span> Brianna Silva</span></p>
+    </div>
+ </footer>
+
+<!-- Foottter section ends-->
+
+
+
+
+ <script src="./index.js"></script>
+</body>
+</html>
