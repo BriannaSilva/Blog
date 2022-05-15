@@ -33,7 +33,7 @@
 
 .single-blog-img-div {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 .single-blog-img {
   width: 80vw;
