@@ -1,11 +1,8 @@
 
 /* SINGLE BLOG BEGINS */
-.single-blog-sec1 {
-  margin-top: 10vh;
-}
 
 .single-blog-sec1 {
-  margin: 5vw 5vw 24px 5vw;
+  margin: 5vh 5vw 24px 5vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
