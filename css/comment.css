@@ -18,11 +18,11 @@
     margin-top: 12px;
 }
 .comment {
-    /* background-color: var(--grey100); */
     width: 80vw;
     padding: 12px;
     border-radius: 5px;
     margin-top: 6px;
+    border: solid 1px var(--grey300);
 }
 
 .comment h2 {
