@@ -2,7 +2,7 @@
 /* SINGLE BLOG BEGINS */
 
 .single-blog-sec1 {
-  margin: 10vh 5vw 24px 5vw;
+  margin: 80px 5vw 24px 5vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -30,7 +30,7 @@
 
 .single-blog-img-div {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 .single-blog-img {
   width: 80vw;
